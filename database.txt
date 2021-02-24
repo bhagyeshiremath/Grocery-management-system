@@ -1,0 +1,12 @@
+\l or \list==>all database
+\c ==>to connect
+\dt ==>all tables
+
+
+
+
+create database grocery;
+\c grocery
+
+create table admininfo(userid int primary key,username char(20) not null,password varchar(20) not null);
+
